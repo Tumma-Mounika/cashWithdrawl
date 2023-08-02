@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.card-container {
+  padding: 30px;
+  background-color: #150b3e;
+  width: 450px;
+  color: white;
+  border-radius: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile-logo {
+  background-color: #c7b2fe;
+  color: #150b3e;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.profile-name {
+  color: #d4d2db;
+  font-size: 20px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.side-text {
+  color: #382f5a;
+  font-size: 15px;
+  font-weight: 500;
+}
+.withdraw-balance {
+  color: #c4c4c4;
+  padding-left: 20px;
+  font-weight: 500;
+}
+.rupees-text {
+  color: #382f5a;
+  font-size: 10px;
+  font-weight: bold;
+}
+.withdraw-heading {
+  color: #c4c4c4;
+}
+.denomination-items-cont {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
